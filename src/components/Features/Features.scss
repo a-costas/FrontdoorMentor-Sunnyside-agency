@@ -1,0 +1,30 @@
+.featureContent {
+  padding: 4rem 1.5rem;
+  text-align: center;
+
+  .title {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2.4663rem;
+    letter-spacing: -0.0144rem;
+  }
+
+  .featureText {
+    margin-top: 1.5rem;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: -0.008rem;
+    color: var(--color-font-secondary);
+  }
+
+  button {
+    margin-top: 2rem;
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    border: none;
+    background: none;
+  }
+}

@@ -1,0 +1,42 @@
+.service {
+  padding-top: 24.875rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 3.6875rem;
+  text-align: center;
+
+  h1 {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 1.75rem;
+    line-height: 2.1575rem;
+    letter-spacing: -0.0125rem;
+    margin-bottom: 1.6875rem;
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.6875rem;
+    letter-spacing: -0.0069rem;
+  }
+}
+
+.design {
+  background: url("../../assets/images/mobile/image-graphic-design.jpg");
+  background-size: contain;
+
+  h1 {
+    color: hsla(166, 40%, 24%, 1);
+  }
+}
+
+.photography {
+  background: url("../../assets/images/mobile/image-photography.jpg");
+  background-size: contain;
+
+  h1 {
+    color: hsla(197, 86%, 12%, 1);
+  }
+}

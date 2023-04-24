@@ -1,0 +1,19 @@
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  margin: 1.5rem;
+  margin-top: 4rem;
+  margin-bottom: 5.375rem;
+
+  h1 {
+    font-family: "Fraunces", serif;
+    font-size: 1rem;
+    line-height: 1.2331rem;
+    letter-spacing: 0.25rem;
+    color: hsla(210, 4%, 67%, 1);
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

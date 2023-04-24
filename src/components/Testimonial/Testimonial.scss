@@ -1,0 +1,45 @@
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+
+  img {
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-family: "Fraunces", serif;
+  }
+
+  p {
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+  }
+
+  .blurb {
+    color: hsla(213, 9%, 39%, 1);
+  }
+
+  .identifier {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5625rem;
+
+    h1 {
+      color: var(--color-secondary);
+      text-transform: none;
+      font-size: 1.125rem;
+      line-height: 1.3869rem;
+      letter-spacing: 0.0081rem;
+    }
+
+    p {
+      color: hsla(210, 4%, 67%, 1);
+      font-size: 0.875rem;
+      line-height: 1.5625rem;
+      letter-spacing: -0.0063rem;
+    }
+  }
+}

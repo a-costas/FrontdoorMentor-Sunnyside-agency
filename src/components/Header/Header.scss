@@ -1,0 +1,30 @@
+.headerWrapper {
+  background: url("../../assets/images/mobile/image-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin-top: 5.5rem;
+  color: var(--color-primary);
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.0825rem;
+  letter-spacing: 0.3906rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.arrow {
+  margin-top: 3.25rem;
+  width: 30px;
+  align-self: center;
+}
