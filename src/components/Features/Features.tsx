@@ -16,7 +16,7 @@ const Features = () => {
             brands grow fast. Engage your clients through compelling visuals
             that do most of the marketing for you.
           </p>
-          <button>Learn More</button>
+          <button className="transformBtn">Learn More</button>
         </div>
       </div>
       <div className="feature">
@@ -28,7 +28,7 @@ const Features = () => {
             photographers, videographers, and copywriters, we'll build and
             extend your brand in digital places.
           </p>
-          <button>Learn More</button>
+          <button className="standoutBtn">Learn More</button>
         </div>
       </div>
     </section>

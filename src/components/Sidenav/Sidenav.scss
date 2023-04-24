@@ -1,0 +1,54 @@
+.sidenav {
+  margin: 5.125rem 1.5rem;
+  padding: 2.4375rem 5.9375rem 2.4375rem;
+  position: absolute;
+  background: var(--color-primary);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+
+  opacity: 0;
+  transform: translateY(15px);
+  transition: opacity 1s ease, transform 1s ease;
+
+  &.visible {
+    &.in {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  li {
+    font-family: "Barlow", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    letter-spacing: -0.0088rem;
+    color: hsla(232, 10%, 55%, 1);
+  }
+  .contactBtn {
+    padding: 1rem 1.875rem 0.9375rem 2rem;
+    border-radius: 1.75rem;
+    font-family: "Fraunces", serif;
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    letter-spacing: -0.0069rem;
+    text-transform: uppercase;
+    color: hsla(212, 27%, 19%, 1);
+    background: hsla(51, 100%, 49%, 1);
+  }
+
+  &::before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid var(--color-primary);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid var(--color-primary);
+    right: 0;
+    top: -19px;
+  }
+}
